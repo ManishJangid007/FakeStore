@@ -1,0 +1,42 @@
+main {
+    margin: 1em;
+}
+
+main > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > form > input {
+    border: none;
+    border-radius: 30.5px;
+    background: #363636;
+    width: 45%;
+    height: 2.5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0em 1em;
+}
+
+main > form > div {
+    width: 2.2em;
+    height: 2.2em;
+    border-radius: 50px;
+    background-color: #363636;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > form > div > img {
+    height: 1em;
+    width: 1em;
+}
+
+@media only screen and (max-width: 450px){
+    main > form > input {
+        width: 70%;
+    }
+}
