@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > ul {
+    display: flex;
+}
+
+.navbar > ul > li {
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar > h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.navbar button {
+    font-family: 'Inter', sans-serif;
+}
