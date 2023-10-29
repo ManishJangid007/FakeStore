@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 3.5em;
+    background-color: #FF8956;
+    box-shadow: 0px 4px 60px 1px rgba(0, 0, 0, 0.25);
 }
 
 .navbar > ul {
@@ -11,14 +14,31 @@
 .navbar > ul > li {
     list-style: none;
     margin: 10px;
+    font-size: 15px;
 }
 
 .navbar > h2 {
-    font-family: Inter;
     font-style: normal;
     font-weight: 700;
+    margin: 0px 10px;
+    font-size: 20px;
 }
 
-.navbar button {
+.navbar > div {
+    margin: 0px 10px;
+}
+
+.navbar > div > button {
     font-family: 'Inter', sans-serif;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.2em 1em;
+}
+.navbar > div > button:nth-child(1) {
+    background-color: #6DC64D;
+    color: white;
+}
+.navbar > div > button:nth-child(2) {
+    background-color: #FFF;
+    color: black;
 }
