@@ -35,6 +35,40 @@ main > form > div > img {
     width: 1em;
 }
 
+.main--section {
+    display: flex;
+}
+
+.main--grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 75vh;
+    width: 65%;
+    margin: 1em 0em;
+    gap: 30px;
+    overflow: scroll;
+}
+
+.main--grid::-webkit-scrollbar {
+    display: none;
+}
+
+.main--ads {
+    height: 75vh;
+    border: 5px solid red;
+    width: 35%;
+    margin: 1em 0em;
+    margin-left: 0.5em;
+}
+
+.main--card {
+    height: 12em;
+    border-radius: 20px;
+    background-image: url(img/samosa.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (max-width: 450px){
     main > form > input {
         width: 70%;
