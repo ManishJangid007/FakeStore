@@ -1,0 +1,18 @@
+footer{
+    height: fit-content;
+    width: 100%;
+    margin: 0px;
+    background-color:#FF8956;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > div {
+    height: 95%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto ;
+}
+p{
+    margin:10px;
+}
